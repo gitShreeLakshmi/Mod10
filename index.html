@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Simple Calculator</h1>
+  <form action="/calculate/add/0/0" method="get">
+    <label for="operation">Operation:</label>
+    <select name="operation" id="operation">
+      <option value="add">Add</option>
+      <option value="subtract">Subtract</option>
+      <option value="multiply">Multiply</option>
+      <option value="divide">Divide</option>
+    </select>
+
+    <label for="num1">Number 1:</label>
+    <input type="text" name="num1" required>
+
+    <label for="num2">Number 2:</label>
+    <input type="text" name="num2" required>
+
+    <button type="submit">Calculate</button>
+  </form>
+</body>
+</html>
