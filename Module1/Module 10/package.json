@@ -1,12 +1,16 @@
 {
-  "name": "calculator-app",
-  "version": "1.0.0",
-  "description": "Simple Calculator App",
-  "main": "calculator.js",
-  "scripts": {
-    "start": "node calc.js"
-  },
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.18.2"
+  },
+  "name": "module-10",
+  "version": "1.0.0",
+  "main": "calc.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node calc.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
